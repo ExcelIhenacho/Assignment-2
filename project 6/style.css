@@ -1,0 +1,103 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.page-1 {
+    background: radial-gradient(circle, rgba(256,244,236, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.nav-left {
+    img {
+        width: 155px;
+    }
+}
+
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+#active {
+    color: #0065FE;
+}
+
+.login {
+    color: #0065FE;
+    background-color: transparent;
+    border: none;
+}
+
+.signup {
+    background-color: #0065FE;
+    color: white;
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+    border: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-head {
+    font-size: 48px;
+    text-align: center;
+    width: 60%;
+}
+
+.hero-par {
+    font-size: 18px;
+    text-align: center;
+    width: 700px;
+
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero-signup {
+    background-color: #0065FE;
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+    color: white;
+    border: none;
+}
+
+.learn-more {
+    background-color: transparent;
+    border: none;
+    color: #0065FE;
+    font-weight: 600;
+}
+
+.hero-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin-top: 20px;
+}
+

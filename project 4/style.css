@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(243, 249, 247);
+}
+
+.slide-one {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.side-div {
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-par {
+    display: none;
+}
+
+.side-div-inner {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-container {
+    width: 40%;
+}
+
+
+.names {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.third-block {
+    display: flex;
+    flex-direction: row ;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+.four-block {
+    width: 100% ;
+}
+
+#activity-level {
+    width: 100%;
+    
+}
+
+.fifth-block {
+    width: 100%;
+}
+
+#password {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.form { 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    width: 80%;
+}
+ 
+.input-element {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 15px;
+    background-color: #2EC4B6;
+    border: none;
+}
+
+.form-footer {
+    font-size: 14px;
+    font-weight: 500;
+
+    span {
+        color: #2EC4B6;
+        text-decoration: underline;
+    }
+}
+.side-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading {
+    font-weight: bold;
+    text-align: left;
+}
+
+.input-data {
+    width: 40%;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .slide-one {
+        flex-direction: column;
+    }
+
+    .names {
+        flex-direction: column;
+    }
+
+    .second-block {
+        flex-direction: column;
+    }
+
+    .third-block {
+        flex-direction: column;
+    }
+
+    .input-data {
+        width: 100%;
+    }
+
+    .second-par {
+        display: block;
+    }
+
+    .first-par {
+        display: none;
+    }
+}

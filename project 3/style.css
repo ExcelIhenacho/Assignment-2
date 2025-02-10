@@ -1,0 +1,51 @@
+body{
+background-color: #a8accc;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+padding: 10px;
+
+
+}
+
+.card{
+    background-color: white;
+    border-radius:10px;
+    padding: 1%px;
+    text-align: center;
+    position: relative;
+
+}
+
+.top
+{
+    background-color:#faf2b3;
+    position: absolute;
+    padding: 10px;
+    border-radius: 15px;
+    border-width:px;
+    margin-top:10px;
+    margin-left: -30px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: left;
+
+}
+.heading{
+    font-size:24px;
+    text-align:left;
+    padding-left: 20px;
+
+
+
+}
+.secondtext{
+    color:gray;
+    font-size: smaller;
+}
+.content{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom:15px;
+}
