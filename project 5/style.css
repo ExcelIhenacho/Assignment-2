@@ -1,16 +1,244 @@
-.upper-content{
+body {
+    display: flex;
+    flex-direction: column;
     background-color: #F5F8FA;
+}
+
+/* * {
+    border: 1px solid blue;
+} */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+.menu-item {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.menu-button {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.horizontal {
+    width: 100%;
+    height: 0;
+}
+
+.number{
+    font-size: 16px;
+    color: #548BC5;
+    border: 2px solid #548BC5;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+.main {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.main-card-left {
+    width: 60%;
+    padding: 30px;
+    background-color: white;
+}
+
+.main-card-right {
+    width: 40%;
+    padding: 30px;
+    background-color: #1179BF;
+    color: white;
+    font-family: "lato";
+
+}
+
+.card-heading-1 {
+    font-family: "Lato", "Helvetica Neue";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.info {
+    font-family: "Lato", "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #EDEFF2;
+    border: none;
+}
+
+.email-div {
+    width: 100%;
+
+    input {
+        width: 80%;
+    }
+}
+
+.basic-info, .payment-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.credit-input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.credit-input-div {
+    width: 100%;
+}
+
+.credit-card {
+    width: 60%;
+}
+
+.expiry, .cvc {
+    width: 25px;
+}
+
+.btn {
+    background-color: #038E7D;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.renew {
+    font-style: italic;
+    width: 70%;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 200;
+}
+.main-card-left-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.powered {
+    background-color: #DADADA;
+    color: white;
+    font-family:"lato";
+    font-size: 12px;
+    width:30%;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+
+}
+.power {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.wp-pusher {
+
+.for-use {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     
+}
+.for-client {
+    font-weight: 400;
+    font-size: 16px;
+
+
+}
+
+.site {
+    font-weight: 400;
+    font-size: 16px;
+    width: 20%
+     
+}
+
+.agency {
+    font-weight: 400;
+    font-size: 16px;
+     text-decoration:underline;
 }
 
 
+.kirk {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
 
-.nav-element {
-    color: black;
+    
+}
+.list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
 
+}
+
+.footer-terms {
+    color: #1179BF;
+}
+.bitmap {
+    border-radius: 20px;
+    margin-right: 10px;
 }

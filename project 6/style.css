@@ -1,3 +1,7 @@
+.body {
+    background-color: white;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
@@ -101,3 +105,10 @@
     margin-top: 20px;
 }
 
+.poss {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    gap: 20px;
+}
